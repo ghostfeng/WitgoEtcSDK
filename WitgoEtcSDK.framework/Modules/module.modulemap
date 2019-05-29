@@ -1,0 +1,6 @@
+framework module WitgoEtcSDK {
+  umbrella header "WitgoEtcSDK.h"
+
+  export *
+  module * { export * }
+}
