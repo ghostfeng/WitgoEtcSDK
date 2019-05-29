@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = '9.0'
   spec.requires_arc = true
-  spec.source       = { :git => "https://github.com/ghostfeng/WitgoEtcSDK.git", :tag => "#{s.version}" }
+  spec.source       = { :git => "https://github.com/ghostfeng/WitgoEtcSDK.git", :tag => "#{spec.version}" }
   spec.vendored_frameworks = 'WitgoEtcSDK.framework'
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "AFNetworking"
