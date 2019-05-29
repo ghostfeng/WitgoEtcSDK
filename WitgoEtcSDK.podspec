@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "WitgoEtcSDK"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.1"
   spec.summary      = "ETC激活SDK"
   spec.homepage     = "https://github.com/ghostfeng/WitgoEtcSDK"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
